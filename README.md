@@ -28,4 +28,11 @@ args = pd.DataFrame({
 })
 
 batch_apply(function, args)
+
+print(args)
+# | var1 | var2 | ... | BATCH_SUCCESS | BATCH_MESSAGE  |
+# | ---- | ---- | ... | ------------- | -------------  |
+# |  a10 |  a20 | ... |     True      |                |
+# |  a11 |  a21 | ... |     False     | ValueError:... | 
+# |  ... |  ... | ... |     ...       | ...            |
 ```
