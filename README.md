@@ -7,7 +7,7 @@ Successful status and error messages are appened as columns of the pandas.DataFr
 ## Install
 
 ```bash
-pip install batch_apply
+pip install batch-apply
 ```
 
 ## Usage
